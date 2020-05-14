@@ -1,8 +1,8 @@
 - id: id1
-  heading: Mission
+  heading: How it started
   description: Creating the future of clothing
   group: 
-  - subheading: 
+  - subheading: The Mission
     img: assets/img/samples/250.png
     content:
       pdf: assets/img/panel_intro.pdf
@@ -15,14 +15,21 @@
   - subheading: Metaride
     img: assets/img/samples/250.png
     content:
-      pdf: assets/img/panel_embedded_shoe.pdf
-    caption: Hello
-    # 
-  - subheading: Instrumented Shoe
-    img: assets/img/samples/250.png
-    content:
       pdf: assets/img/panel_metaride.pdf
     caption: Hello
+    #
+  - subheading: Instrumented Shoe
+    subgroup: 
+      - img: assets/img/samples/250.png
+        content:
+          pdf: assets/img/panel_embedded_shoe.pdf
+        caption: xxx
+        alt: xxx
+      - img: assets/img/samples/500.png
+        content:
+          image: assets/img/shoe_render_1.png
+        caption: yyy
+        alt: yyy 
     # 
   - subheading: AI Coach
     img: assets/img/samples/250.png
@@ -34,32 +41,29 @@
   heading: Product Demos
   description: description
   group: 
-    - subheading: Metaride
+    - subheading: Future Fit
       img: assets/img/samples/250.png
       content:
         pdf: assets/img/panel_embedded_shoe.pdf
       caption: Hello
       # 
-    - subheading: Instrumented Shoe
+    - subheading: Intelligent Clothing
       subgroup: 
         - img: assets/img/samples/250.png
           content:
-            url: https://design.mit.edu/
+            video: 
           caption: xxx
           alt: xxx
         - img: assets/img/samples/500.png
           content:
-            url: https://design.mit.edu/projects/making-sports-dynamic
+            video: 
           caption: yyy
           alt: yyy
-      # 
-    - subheading: AI Coach
-      img: assets/img/samples/250.png
-      content:
-        pdf: assets/img/panel_ai_coach.pdf
-      caption: Hello 
-      # 
-
+        - img: assets/img/samples/500.png
+          content:
+            video: 
+          caption: yyy
+          alt: yyy
 
 - id: id4
   heading: The Design Lab
