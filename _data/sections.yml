@@ -1,0 +1,79 @@
+- id: id1
+  heading: Mission
+  description: Creating the future of clothing
+  group: 
+  - subheading: 
+    img: assets/img/samples/250.png
+    content:
+      pdf: assets/img/panel_intro.pdf
+    caption: Hello
+
+- id: id2
+  heading: Projects
+  description: description
+  group: 
+  - subheading: Metaride
+    img: assets/img/samples/250.png
+    content:
+      pdf: assets/img/panel_embedded_shoe.pdf
+    caption: Hello
+    # 
+  - subheading: Instrumented Shoe
+    img: assets/img/samples/250.png
+    content:
+      pdf: assets/img/panel_metaride.pdf
+    caption: Hello
+    # 
+  - subheading: AI Coach
+    img: assets/img/samples/250.png
+    content:
+      pdf: assets/img/panel_ai_coach.pdf
+    caption: Hello
+
+- id: id3
+  heading: Product Demos
+  description: description
+  group: 
+    - subheading: Metaride
+      img: assets/img/samples/250.png
+      content:
+        pdf: assets/img/panel_embedded_shoe.pdf
+      caption: Hello
+      # 
+    - subheading: Instrumented Shoe
+      subgroup: 
+        - img: assets/img/samples/250.png
+          content:
+            url: https://design.mit.edu/
+          caption: xxx
+          alt: xxx
+        - img: assets/img/samples/500.png
+          content:
+            url: https://design.mit.edu/projects/making-sports-dynamic
+          caption: yyy
+          alt: yyy
+      # 
+    - subheading: AI Coach
+      img: assets/img/samples/250.png
+      content:
+        pdf: assets/img/panel_ai_coach.pdf
+      caption: Hello 
+      # 
+
+
+- id: id4
+  heading: The Design Lab
+  description: The intersection of form and function for interactive design
+  group:
+    - subheading: 
+      subgroup: 
+        - img: assets/img/samples/250.png
+          content:
+            url: https://design.mit.edu/
+          caption: xxx
+          alt: xxx
+        - img: assets/img/samples/500.png
+          content:
+            url: https://design.mit.edu/projects/making-sports-dynamic
+          caption: yyy
+          alt: yyy

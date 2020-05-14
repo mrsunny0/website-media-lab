@@ -1,1 +1,24 @@
-theme: jekyll-theme-minimal
+# Site settings
+contact: george.lele.sun@gmail.com
+company_name: Sun Websites
+company_website: https://www.sunwebsites.org
+personal_website: http://www.mrsunny.tech
+template_readme: https://github.com/mrsunny0/template-gh-pages/blob/gh-pages/README.md
+template_generator: https://github.com/mrsunny0/generator-gls-website
+
+# Front page settings
+author: George L. Sun
+title: Personal Website Media Lab
+header: "Media Lab <span><em>x</em></span> Puma"
+description: Future Fit, a collaboration between the Design Lab and Puma
+gh_page: this.example.com
+background: 
+  video: assets/video/women_jogging.mp4
+  image: assets/img/1000.png 
+  color: #1a222c 
+
+# Google-analytics
+google-analytics:
+  id: "UA-XXXXXXXXX-X"
+
+exclude: ['package.json', 'src' , 'node_modules']
