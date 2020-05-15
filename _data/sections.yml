@@ -1,38 +1,32 @@
 - id: id1
   heading: How it started
-  description: Creating the future of clothing
+  description: 
   group: 
   - subheading: The Mission
-    img: assets/img/samples/250.png
+    img: assets/img/section1_designlab.png
+    # img: assets/img/section1_puma.png
     content:
       pdf: assets/img/panel_intro.pdf
-    caption: Hello
+    caption: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 - id: id2
   heading: Projects
   description: description
   group: 
-  - subheading: Metaride
-    img: assets/img/samples/250.png
+  - subheading: Meta-<br>materials
+    img: assets/img/section2_material.jpg
     content:
       pdf: assets/img/panel_metaride.pdf
     caption: Hello
     #
-  - subheading: Instrumented Shoe
-    subgroup: 
-      - img: assets/img/samples/250.png
-        content:
-          pdf: assets/img/panel_embedded_shoe.pdf
-        caption: xxx
-        alt: xxx
-      - img: assets/img/samples/500.png
-        content:
-          image: assets/img/shoe_render_1.png
-        caption: yyy
-        alt: yyy 
+  - subheading: Embedded Technologies
+    img: assets/img/section2_circuit.jpg
+    content:
+      pdf: assets/img/panel_embedded_shoe.pdf
+    caption: Hello
     # 
-  - subheading: AI Coach
-    img: assets/img/samples/250.png
+  - subheading: Artificial<br>Intelligence
+    img: assets/img/section2_machinelearning.jpg
     content:
       pdf: assets/img/panel_ai_coach.pdf
     caption: Hello
@@ -41,35 +35,35 @@
   heading: Product Demos
   description: description
   group: 
-    - subheading: Future Fit
-      img: assets/img/samples/250.png
+    - subheading: Meta Ride
+      img: assets/img/section3_material_snapshot_cropped.png
       content:
-        pdf: assets/img/panel_embedded_shoe.pdf
+        video: assets/video/video_metaride.mp4
       caption: Hello
       # 
-    - subheading: Intelligent Clothing
+    - subheading: Future Fit
       subgroup: 
-        - img: assets/img/samples/250.png
+        - img: assets/img/section3_embedded_shoe_snapshot.png
           content:
-            video: 
+            video: assets/video/video_EE.mp4
           caption: xxx
           alt: xxx
-        - img: assets/img/samples/500.png
+        - img: assets/img/section3_insole_snapshot.png
           content:
-            video: 
+            video: assets/video/video_EE_update.mp4
           caption: yyy
           alt: yyy
-        - img: assets/img/samples/500.png
+        - img: assets/img/section3_app_snapshot.png
           content:
-            video: 
+            video: assets/video/video_ai.mp4
           caption: yyy
           alt: yyy
 
 - id: id4
   heading: The Design Lab
-  description: The intersection of form and function for interactive design
+  description: 
   group:
-    - subheading: 
+    - subheading: The intersection of form and function for interactive design
       subgroup: 
         - img: assets/img/samples/250.png
           content:
