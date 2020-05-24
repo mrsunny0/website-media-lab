@@ -8,8 +8,11 @@ _site
 _example
 
 # illustrative drafts
-.ai
-raw/
+**/img/download
+**/_drafts
+src/img/raw/*
+src/video/raw/*
+!src/img/raw/favicon.ai
 
 # node modules
 node_modules
@@ -20,3 +23,4 @@ test.js
 
 # misc
 .DS_Store
+
