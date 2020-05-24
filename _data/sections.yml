@@ -5,7 +5,7 @@
   - subheading: The Mission
     img: assets/img/mission/designlab.jpg
     content:
-      pdf: assets/img/panel_intro.pdf
+      pdf: assets/img/panels/panel-1.pdf
     caption: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     alt: something else
 
@@ -16,21 +16,21 @@
   - subheading: Meta-<br>materials
     img: assets/img/projects/material.jpg
     content:
-      pdf: assets/img/panel_metaride.pdf
+      pdf: assets/img/panels/panel-4.pdf
     caption: Hello
     alt: aaa
     #
   - subheading: Embedded<br>Technologies
     img: assets/img/projects/circuit.jpg
     content:
-      pdf: assets/img/panel_embedded_shoe.pdf
+      pdf: assets/img/panels/panel-2.pdf
     caption: Hello
     alt: aaa
     # 
   - subheading: Artificial<br>Intelligence
     img: assets/img/projects/ai.jpg
     content:
-      pdf: assets/img/panel_ai_coach.pdf
+      pdf: assets/img/panels/panel-3.pdf
     caption: Hello
     alt: aaa
 
