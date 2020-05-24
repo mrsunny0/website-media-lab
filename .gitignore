@@ -8,8 +8,10 @@ _site
 _example
 
 # illustrative drafts
-.ai
-raw/
+**/_drafts
+**/_temp
+**/_raw
+**/_download
 
 # node modules
 node_modules
@@ -20,3 +22,4 @@ test.js
 
 # misc
 .DS_Store
+

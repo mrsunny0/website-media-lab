@@ -1,83 +1,87 @@
 - id: id1
   heading: How it started
-  description: Creating the future of clothing
+  description: 
   group: 
   - subheading: The Mission
-    img: assets/img/samples/250.png
+    img: assets/img/mission/logo.jpg
     content:
-      pdf: assets/img/panel_intro.pdf
-    caption: Hello
+      pdf: assets/img/panels/panel-1.pdf
+      alt-link: feaf
+    caption: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    alt: something else
 
 - id: id2
   heading: Projects
   description: description
   group: 
-  - subheading: Metaride
-    img: assets/img/samples/250.png
+  - subheading: Meta-<br>materials
+    img: assets/img/projects/material.jpg
     content:
-      pdf: assets/img/panel_metaride.pdf
+      pdf: assets/img/panels/panel-4.pdf
     caption: Hello
+    alt: aaa
     #
-  - subheading: Instrumented Shoe
-    subgroup: 
-      - img: assets/img/samples/250.png
-        content:
-          pdf: assets/img/panel_embedded_shoe.pdf
-        caption: xxx
-        alt: xxx
-      - img: assets/img/samples/500.png
-        content:
-          image: assets/img/shoe_render_1.png
-        caption: yyy
-        alt: yyy 
-    # 
-  - subheading: AI Coach
-    img: assets/img/samples/250.png
+  - subheading: Embedded<br>Technologies
+    img: assets/img/projects/circuit.jpg
     content:
-      pdf: assets/img/panel_ai_coach.pdf
+      pdf: assets/img/panels/panel-2.pdf
     caption: Hello
+    alt: aaa
+    # 
+  - subheading: Artificial<br>Intelligence
+    img: assets/img/projects/ai.jpg
+    content:
+      pdf: assets/img/panels/panel-3.pdf
+    caption: Hello
+    alt: aaa
 
 - id: id3
   heading: Product Demos
   description: description
   group: 
-    - subheading: Future Fit
-      img: assets/img/samples/250.png
+    - subheading: Meta Ride
+      img: assets/img/demos/recurve.jpg
       content:
-        pdf: assets/img/panel_embedded_shoe.pdf
+        video: assets/video/material.mp4
+        # alt-link: 
       caption: Hello
       # 
-    - subheading: Intelligent Clothing
+    - subheading: Future Fit
       subgroup: 
-        - img: assets/img/samples/250.png
+        - img: assets/img/demos/blowup.jpg
           content:
-            video: 
+            video: assets/video/interview.mp4
+            alt-link: fff
           caption: xxx
           alt: xxx
-        - img: assets/img/samples/500.png
+        - img: assets/img/demos/insole.jpg
           content:
-            video: 
+            video: assets/video/update.mp4
+            alt-link: aaa
           caption: yyy
           alt: yyy
-        - img: assets/img/samples/500.png
+        - img: assets/img/demos/app.jpg
           content:
-            video: 
+            video: assets/video/ai.mp4
+            alt-link: feowih
           caption: yyy
           alt: yyy
 
 - id: id4
   heading: The Design Lab
-  description: The intersection of form and function for interactive design
+  description: 
   group:
-    - subheading: 
+    - subheading: The intersection of form and function for interactive design
       subgroup: 
-        - img: assets/img/samples/250.png
+        - img: assets/img/lab/blowup.jpg
           content:
-            url: https://design.mit.edu/
+            image: assets/img/lab/mockshoe.jpg
+            alt-link: https://design.mit.edu/projects/making-sports-dynamic
           caption: xxx
           alt: xxx
-        - img: assets/img/samples/500.png
+        - img: assets/img/lab/biorealize.jpg
           content:
-            url: https://design.mit.edu/projects/making-sports-dynamic
+            image: assets/img/lab/bioshoe.jpg
+            alt-link: https://design.mit.edu/projects/puma-biodesign
           caption: yyy
           alt: yyy
