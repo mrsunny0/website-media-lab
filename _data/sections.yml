@@ -73,8 +73,9 @@
   group:
     - subheading: The intersection of form and function for interactive design
       subgroup: 
-        - img: assets/img/lab/blowup2.jpg
+        - img: assets/img/lab/blowup.jpg
           content:
+            image: assets/img/lab/mockshoe.jpg
             alt-link: https://design.mit.edu/projects/making-sports-dynamic
           caption: xxx
           alt: xxx
