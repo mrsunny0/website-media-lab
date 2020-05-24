@@ -39,26 +39,30 @@
   description: description
   group: 
     - subheading: Meta Ride
-      img: assets/img/section3_material_snapshot_cropped.png
+      img: assets/img/demos/recurve.jpg
       content:
         video: assets/video/material.mp4
+        # alt-link: 
       caption: Hello
       # 
     - subheading: Future Fit
       subgroup: 
-        - img: assets/img/section3_embedded_shoe_snapshot.png
+        - img: assets/img/demos/blowup.jpg
           content:
             video: assets/video/interview.mp4
+            alt-link: fff
           caption: xxx
           alt: xxx
-        - img: assets/img/section3_insole_snapshot.png
+        - img: assets/img/demos/insole.jpg
           content:
             video: assets/video/update.mp4
+            alt-link: aaa
           caption: yyy
           alt: yyy
-        - img: assets/img/section3_app_snapshot.png
+        - img: assets/img/demos/app.jpg
           content:
             video: assets/video/ai.mp4
+            alt-link: feowih
           caption: yyy
           alt: yyy
 

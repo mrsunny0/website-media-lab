@@ -65,7 +65,7 @@ function css() {
  */
 function images() {
   return gulp
-    .src(['src/img/**/*.{jpg,png,gif}', '!src/img/raw/*', '!src/img/drafts/*'])
+    .src(['src/img/**/*.{jpg,png,gif}', '!src/img/_raw/*', '!src/img/_drafts/*', '!src/img/_downloads/*', '!src/img/_temp/*'])
     .pipe(plumber())
     .pipe(imagemin({
       optimizationLevel: 3,
@@ -82,7 +82,7 @@ function images() {
 
 function pdfs() {
   return gulp
-    .src(['src/img/**/*.pdf'])
+    .src(['src/img/**/*.pdf', '!src/img/_raw/*', '!src/img/_drafts/*', '!src/img/_downloads/*', '!src/img/_temp/*'])
     .pipe(gulp.dest('assets/img/'))
     .pipe(gulp.dest('_site/assets/img/'))
     .pipe(bsync.stream());
