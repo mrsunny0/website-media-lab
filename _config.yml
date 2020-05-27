@@ -13,13 +13,10 @@ header: "Media Lab <span><em>x</em></span> Puma"
 description: Future Fit, a collaboration between the Design Lab and Puma
 gh_page: this.example.com
 background: 
-  # video: assets/video/ai.mp4
   video: assets/video/women-jogging-front.mp4
-  # image: assets/img/1000.png 
-  # color: #1a222c 
 
 # Google-analytics
 google-analytics:
-  id: "UA-XXXXXXXXX-X"
+  id: "UA-161447266-7"
 
 exclude: ['package.json', 'src' , 'node_modules']
