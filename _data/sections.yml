@@ -14,13 +14,14 @@
 
 - id: id2
   heading: Projects
-  description: description
+  description: Projects spanned three key concepts, advanced materials, embedded sensors, and artificial intelligence
   group: 
   - subheading: Meta-<br>materials
     alt: meta materials
     img: assets/img/projects/material.jpg
     content:
       pdf: assets/img/panels/panel-4.pdf
+      alt-link:
     caption: 
       short:
       popup: 
@@ -30,6 +31,7 @@
     img: assets/img/projects/circuit.jpg
     content:
       pdf: assets/img/panels/panel-2.pdf
+      alt-link:
     caption: 
       short:
       popup: 
@@ -39,57 +41,73 @@
     img: assets/img/projects/ai.jpg
     content:
       pdf: assets/img/panels/panel-3.pdf
+      alt-link:
     caption: 
       short:
       popup: 
 
-# - id: id3
-#   heading: Product Demos
-#   description: description
-#   group: 
-#     - subheading: Meta Ride
-#       img: assets/img/demos/recurve.jpg
-#       content:
-#         video: assets/video/material.mp4
-#         # alt-link: 
-#       caption: Hello
-#       # 
-#     - subheading: Future Fit
-#       subgroup: 
-#         - img: assets/img/demos/blowup.jpg
-#           content:
-#             video: assets/video/interview.mp4
-#             alt-link: fff
-#           caption: xxx
-#           alt: xxx
-#         - img: assets/img/demos/insole.jpg
-#           content:
-#             video: assets/video/update.mp4
-#             alt-link: aaa
-#           caption: yyy
-#           alt: yyy
-#         - img: assets/img/demos/app.jpg
-#           content:
-#             video: assets/video/ai.mp4
-#             alt-link: feowih
-#           caption: yyy
-#           alt: yyy
+- id: id3
+  heading: Product Demos
+  description: 
+  group: 
+    - subheading: Meta Ride
+      img: assets/img/demos/recurve.jpg
+      content:
+        video: assets/video/material.mp4
+        alt-link:
+      caption: 
+        short:
+        popup: 
+      # 
+    - subheading: Future Fit
+      subgroup: 
+        - img: assets/img/demos/blowup.jpg
+          alt: Cinderella Shoes
+          content:
+            video: assets/video/interview.mp4
+            alt-link: 
+          caption:
+            short:
+            popup: 
+          # 
+        - img: assets/img/demos/insole.jpg
+          alt: Embedded insole
+          content:
+            video: assets/video/update.mp4
+            alt-link:
+          caption:
+            short:
+            popup: 
+          # 
+        - img: assets/img/demos/app.jpg
+          alt: Product app
+          content:
+            video: assets/video/ai.mp4
+            alt-link:
+          caption:
+            short:
+            popup: 
 
-# - id: id4
-#   heading: The Design Lab
-#   description: 
-#   group:
-#     - subheading: The intersection of form and function for interactive design
-#       subgroup: 
-#         - img: assets/img/lab/blowup.jpg
-#           content:
-#             image: assets/img/lab/mockshoe.jpg
-#             alt-link: https://design.mit.edu/projects/making-sports-dynamic
-#           caption: xxx
-#           alt: xxx
-#         - img: assets/img/lab/biorealize.jpg
-#           content:
-#             image: assets/img/lab/bioshoe.jpg
-#             alt-link: https://design.mit.edu/projects/puma-biodesign
-#           caption: yyy
-#           alt: yyy
+- id: id4
+  heading: The Design Lab
+  description: 
+  group:
+    - subheading: The intersection of form and function for interactive design
+      subgroup: 
+        - img: assets/img/lab/blowup.jpg
+          alt: Shoe rendering          
+          content:
+            image: assets/img/lab/mockshoe.jpg
+            alt-link: https://design.mit.edu/projects/making-sports-dynamic
+          caption:
+           short:
+           popup:
+          #  
+        - img: assets/img/lab/biorealize.jpg
+          alt: Bio-inspired shoes
+          content:
+            image: assets/img/lab/bioshoe.jpg
+            alt-link: https://design.mit.edu/projects/puma-biodesign
+          caption: 
+            short:
+            popup: 
