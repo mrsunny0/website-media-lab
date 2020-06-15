@@ -54,6 +54,9 @@
         flex: 0 0 62.5%;
         height: 100%;
 
+        background-color: #080808;
+        overflow: hidden;
+
         &--content {
             height: 100%;
             width: 100%
@@ -69,6 +72,12 @@
 
         &--image {
             object-fit: cover;
+        }
+
+        &--image--contain {
+            background-color: white;
+            object-fit: contain;
+            overflow: hidden;
         }
 
         &--pdf {
@@ -176,10 +185,17 @@
             font-size: 3rem;
             text-decoration: none;
             display: inline-block;
-            transition: all .2s;
+            transition: all .3s;
             line-height: 1;
+            
+            @include respond(tab-port) {
+                color: white;
+                top: 1rem;
+                right: 4rem;                
+            }
 
             @include respond(phone) {
+                color: white;
                 top: 1rem;
                 right: 4rem;
             }
@@ -187,6 +203,15 @@
 
         &:hover {
             color: $color-close-x;
+            transform: scale(1.1);
+
+            @include respond(tab-port) {
+                color: white;             
+            }
+
+            @include respond(phone) {
+                color: white;
+            }            
         }
     }
 }

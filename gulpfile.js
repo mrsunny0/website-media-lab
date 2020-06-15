@@ -65,7 +65,7 @@ function css() {
  */
 function images() {
   return gulp
-    .src(['src/img/**/*.{jpg,png,gif,svg}', '!src/img/raw/*', '!src/img/drafts/*'])
+    .src(['src/img/**/*.{jpg,png,gif,svg}', '!src/img/_raw/*', '!src/img/_drafts/*', '!src/img/_download/*'])
     .pipe(plumber())
     .pipe(imagemin({
       optimizationLevel: 3,
@@ -93,7 +93,7 @@ function pdfs() {
  */
 function videos() {
   return gulp
-    .src(['src/video/**/*.{mov,webm,mp4}', '!src/video/raw/*', '!src/video/drafts/*'])
+    .src(['src/video/**/*.{mov,webm,mp4}', '!src/video/_raw/*'])
     .pipe(gulp.dest('assets/video/'))
     .pipe(gulp.dest('_site/assets/video/'))
     .pipe(bsync.stream());
@@ -154,6 +154,7 @@ function clear(done) {
 // define complex tasks
 const watch = gulp.parallel(watchFiles, clear, browserSync);
 const build = gulp.series(clean, gulp.parallel(css, images, pdfs, videos, scripts, jekyll));
+const rebuild = gulp.series(clean, clear, build, watch)
 
 // export tasks
 exports.images = images;
@@ -165,3 +166,4 @@ exports.clear = clear;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;
+exports.rebuild = rebuild;
