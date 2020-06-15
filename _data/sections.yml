@@ -7,14 +7,14 @@
     alt: Puma and design lab logo
     content:
       pdf: assets/img/panels/panel-1.pdf
-      alt-link: feaf
+      alt-link: https://design.mit.edu/
     caption: 
       short: 
       popup: 
 
 - id: id2
   heading: Projects
-  description: Projects spanned three key concepts, advanced materials, embedded sensors, and artificial intelligence
+  description: # Projects spanned three key concepts, advanced materials, embedded sensors, and artificial intelligence
   group: 
   - subheading: Meta-<br>materials
     alt: meta materials
@@ -52,6 +52,7 @@
   group: 
     - subheading: Meta Ride
       img: assets/img/demos/recurve.jpg
+      alt: Meta materials
       content:
         video: assets/video/material.mp4
         alt-link:
