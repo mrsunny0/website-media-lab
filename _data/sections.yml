@@ -78,7 +78,7 @@
             alt-link: 
           caption:
             short: >
-              By embedding a multi-platform hierarchical shoe, we incorporated several components of 
+              By creating a multi-structured hierarchical shoe, we incorporated several hardware components such as accelerometers, pressure pads, and haptics.
             popup: >
 
           # 
@@ -88,8 +88,10 @@
             video: assets/video/update.mp4
             alt-link:
           caption:
-            short:
-            popup: 
+            short: >
+              A major source of innovation was designing a flexible and thin pressure sensitive structure that could be slipped in the insole seamlessly.
+            popup: >
+
           # 
         - img: assets/img/demos/app.jpg
           alt: Product app
@@ -97,9 +99,11 @@
             video: assets/video/ai.mp4
             alt-link:
           caption:
-            short:
-            popup: 
+            short: >
+              Data would be gathered from the shoe, and performance metrics and tracking data would be rendered to a personalized app.
+            popup:  >
 
+  # 
 - id: id4
   heading: The Design Lab
   description: 
@@ -109,17 +113,20 @@
         - img: assets/img/lab/blowup.jpg
           alt: Shoe rendering          
           content:
-            image: assets/img/lab/mockshoe.jpg
+            image-contain: assets/img/lab/mockshoe.jpg
             alt-link: https://design.mit.edu/projects/making-sports-dynamic
           caption:
-           short:
-           popup:
+            short: >
+              This project assembled experts in design, fashion, user-experience, engineering, and many more, a quintessential example of a multi-disciplinary group.
+            popup: >
+            
           #  
         - img: assets/img/lab/biorealize.jpg
           alt: Bio-inspired shoes
           content:
-            image: assets/img/lab/bioshoe.jpg
+            image-contain: assets/img/lab/bioshoe.jpg
             alt-link: https://design.mit.edu/projects/puma-biodesign
           caption: 
-            short:
-            popup: 
+            short: >
+              As I left the group to finish my PhD, the team went further and pursued the idea of a biologically-inspired, and even biologically derived shoe, check it out.
+            popup: >
