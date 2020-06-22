@@ -65,8 +65,9 @@
         alt-link:
       caption: 
         short: >
-          The lab designed a new set of patterns which could be 3D-printed that would behave with auxetic materials, a capability we called <i>Meta-ride</i>.
-        popup: 
+          The lab designed a new set of patterns which could be 3D-printed which would behave with auxetic properties, a capability we called <i>Meta-ride</i>.
+        popup: >
+
       # 
     - subheading: Future Fit
       subgroup: 
@@ -76,8 +77,10 @@
             video: assets/video/interview.mp4
             alt-link: 
           caption:
-            short:
-            popup: 
+            short: >
+              By embedding a multi-platform hierarchical shoe, we incorporated several components of 
+            popup: >
+
           # 
         - img: assets/img/demos/insole.jpg
           alt: Embedded insole
