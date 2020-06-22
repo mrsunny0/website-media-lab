@@ -1,3 +1,5 @@
+# Note, none of these sections have a description field
+
 - id: id1
   heading: How it started
   description: 
@@ -9,12 +11,13 @@
       pdf: assets/img/panels/panel-1.pdf
       alt-link: https://design.mit.edu/
     caption: 
-      short: 
+      short:  >
+        The Design Lab and Puma began a joint collaboration to create a next generation shoe, homage to their self-lacing "Back to the Future" shoe showcased in 1986. 
       popup: 
 
 - id: id2
   heading: Projects
-  description: # Projects spanned three key concepts, advanced materials, embedded sensors, and artificial intelligence
+  description: 
   group: 
   - subheading: Meta-<br>materials
     alt: meta materials
@@ -23,7 +26,8 @@
       pdf: assets/img/panels/panel-4.pdf
       alt-link:
     caption: 
-      short:
+      short: >
+        A family of materials called auxetic materials were investigated, as they behave with the unusual property of thickening when stretched which we used to augment shoe support and performance.  
       popup: 
     #
   - subheading: Embedded<br>Technologies
@@ -33,7 +37,8 @@
       pdf: assets/img/panels/panel-2.pdf
       alt-link:
     caption: 
-      short:
+      short: >
+        As consumer devices begin to miniaturize, more-and-more was it possible to embed motion sensitive components into the shoe, specifically the insole for gait analysis.
       popup: 
     # 
   - subheading: Artificial<br>Intelligence
@@ -43,21 +48,24 @@
       pdf: assets/img/panels/panel-3.pdf
       alt-link:
     caption: 
-      short:
-      popup: 
+      short: >
+        At the fervor of machine learning, we took the mission of incorporating artificial intelligence into the materials and data we received from the first two projects, to create a fully responsive shoe.
+      popup: >
 
+  # 
 - id: id3
   heading: Product Demos
   description: 
   group: 
-    - subheading: Meta Ride
+    - subheading: Meta-Ride
       img: assets/img/demos/recurve.jpg
       alt: Meta materials
       content:
         video: assets/video/material.mp4
         alt-link:
       caption: 
-        short:
+        short: >
+          The lab designed a new set of patterns which could be 3D-printed that would behave with auxetic materials, a capability we called <i>Meta-ride</i>.
         popup: 
       # 
     - subheading: Future Fit
@@ -93,7 +101,7 @@
   heading: The Design Lab
   description: 
   group:
-    - subheading: The intersection of form and function for interactive design
+    - subheading: Where design meets function
       subgroup: 
         - img: assets/img/lab/blowup.jpg
           alt: Shoe rendering          
